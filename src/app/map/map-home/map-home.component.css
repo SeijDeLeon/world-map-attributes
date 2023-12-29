@@ -1,0 +1,31 @@
+.parent {
+  margin-top:10%;
+  display: grid;
+  height: auto;
+  width: 100vw;
+  padding-left:10%;
+  padding-right:10%;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left-column {
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+}
+
+.right-column {
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+}
+
+.data {
+  margin-left:10%;
+  margin-top:10%;
+}
+
+.map {
+  width: 100%;
+  height: auto;
+}
